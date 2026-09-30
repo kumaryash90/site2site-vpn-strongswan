@@ -1,0 +1,10 @@
+[Unit]
+Description=VPN tunnel keepalive ping to awsServerA
+After=network.target strongswan-starter.service
+
+[Service]
+ExecStart=/usr/local/bin/vpn-heartbeat.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,25 @@
+# Secrets / credentials
+ipsec.secrets
+vpn-*.txt
+*.pem
+*.key
+.env
+.env.*
+credentials
+aws-exports.js
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
